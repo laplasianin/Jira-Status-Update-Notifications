@@ -24,7 +24,7 @@
   "username": "mailuser@mail.com",
   "password": "mailpass",
   "jiraUsername": "jiramail@nitka.com",
-  "JiraPassword": "jirapass",
+  "jiraPassword": "jirapass",
   "baseUrl": "https://jira-url/",
   "restApi": "rest/api/2/",
   "epics": {
