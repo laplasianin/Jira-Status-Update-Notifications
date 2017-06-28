@@ -1,0 +1,33 @@
+{
+  "paragraphs": [
+    {
+      "paragraphDescription": "Daily changes",
+      "items": [
+        {
+          "description": "Created",
+          "query": "createdDate > startOfDay() AND status = open"
+        }
+      ]
+    },
+    {
+      "paragraphDescription": "Code Review",
+      "items": [
+        {
+          "description": "Code Review",
+          "query": "status = \"Code Review\""
+        }
+      ]
+    }
+  ],
+  "mailFrom": "from@from.com",
+  "mailTo": "to@to.com",
+  "username": "mailuser@mail.com",
+  "password": "mailpass",
+  "jiraUsername": "jiramail@nitka.com",
+  "JiraPassword": "jirapass",
+  "baseUrl": "https://jira-url/",
+  "restApi": "rest/api/2/",
+  "epics": {
+    "PR-1": "<span style=\"color: slategray;\">Epic Name</span>"
+  }
+}
